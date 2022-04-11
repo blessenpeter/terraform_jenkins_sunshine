@@ -23,28 +23,28 @@ variable "cidr_prv1" {
   description = "CIDR Block for Private Subnet 1"
   type        = string
 
-#   default = "10.0.0.0/24"
+#   default = "10.0.1.0/24"
 }
 
 variable "cidr_prv2" {
   description = "CIDR Block for Private Subnet 2"
   type        = string
 
-#   default = "10.1.0.0/24"
+#   default = "10.0.2.0/24"
 }
 
 variable "cidr_pub1" {
   description = "CIDR Block for Public Subnet 1"
   type        = string
 
-#   default = "10.2.0.0/24"
+#   default = "10.0.3.0/24"
 }
 
 variable "cidr_pub2" {
   description = "CIDR Block for PriPublic Subnet 2"
   type        = string
 
-#   default = "10.3.0.0/24"
+#   default = "10.0.4.0/24"
 }
 
 

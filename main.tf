@@ -5,14 +5,14 @@ provider "aws" {
 module "s3_bucket_module_1" {
   source = "./s3_bucket"
 
-  bucket_name = "gtech_s3_media"
+  bucket_name = "gtech-s3-media"
   environment = "dev"
 }
 
 module "s3_bucket_module_2" {
   source = "./s3_bucket"
 
-  bucket_name = "gtech_s3_code"
+  bucket_name = "gtech-s3-code"
   environment = "dev"
 }
 
